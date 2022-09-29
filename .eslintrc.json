@@ -6,7 +6,7 @@
   "ecmaFeatures": {
       "jsx": true
   }
-}
+},
 "rules": {
   "semi": 2
 }
