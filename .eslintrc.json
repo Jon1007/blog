@@ -1,6 +1,13 @@
 {
-  "extends": "next/core-web-vitals"
-  "rules": {
-     "react/jsx-no-duplicate-props": [1, { "ignoreCase": false }]
- }
+  "extends": "next/core-web-vitals",
+    "parserOptions": {
+  "ecmaVersion": 6,
+  "sourceType": "module",
+  "ecmaFeatures": {
+      "jsx": true
+  }
+}
+"rules": {
+  "semi": 2
+}
 }
